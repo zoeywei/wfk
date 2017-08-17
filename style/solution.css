@@ -74,15 +74,18 @@
     font-size: 18px;
     padding: 60px 0 60px 15px;
 }
+.solution-list div{
+    width: 1000px;
+    overflow: hidden;
+}
 .solution-list ul{
     width: 1090px;
-    overflow: hidden;
 }
 .solution-list ul li{
     width: 200px;
     float: left;
     margin-top: 38px;
-    margin-right: 70px;
+    margin-right: 65px;
     text-align: center;
     line-height: 22px;
 }
