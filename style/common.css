@@ -1,0 +1,366 @@
+body{
+    font-family:'Î¢ÈíÑÅºÚ';
+    font-size:12px;
+    color:#595959;
+    background:#fff;
+}
+
+/*Í·²¿*/
+.header-box{
+    width: 100%;
+    height: 103px;
+    background: #fff;
+}
+.header{
+    width: 1000px;
+    margin: 0 auto;
+    height: auto;
+}
+.header-logo{
+    width: 150px;
+    height: 70px;
+    margin: 23px 0 0 16px;
+    display: inline;
+}
+.header-nav{
+    height: 103px;
+    position: relative;
+}
+.header-nav ul{
+    float: left;
+    margin-top: 63px;
+    padding-right: 39px;
+}
+.header-nav ul li{
+    float: left;
+    height: 43px;
+    width: 92px;
+    text-align: center;
+    font-weight: bold;
+    display: inline;
+}
+.header-nav ul li a{
+    display: inline-block;
+    height: 21px;
+    line-height: 21px;
+    color: #6d6d6d;
+}
+.header-nav i{
+    position: absolute;
+    width: 92px;
+    height: 4px;
+    background: #f57406;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 50;
+    text-indent: -99em;
+}
+.header-nav .login-btn{
+    position: absolute;
+    right: 4px;
+    top: 60px;
+    width: 34px;
+    height: 22px;
+    background: url("../images/index_btn.png") no-repeat -1px -3px;
+}
+
+/*Î²²¿*/
+.footer:before{
+    content: "";
+    height: 7px;
+    width: 100%;
+    background: url("../images/demo_line.png") repeat-x;
+}
+.footer{
+    background: url("../images/foot_bg.png") repeat-x;
+    width: 100%;
+    height: 521px;
+}
+.footer-tel{
+    width: 1000px;
+    height: 390px;
+    margin: 0 auto;
+    position: relative;
+}
+.footer-tel ul{
+    position: absolute;
+    top: 100px;
+    left: 42px;
+    width: 350px;
+    height: 186px;
+}
+.footer-tel ul li{
+    height: 32px;
+    padding: 15px 3px;
+}
+.footer-tel ul li span{
+    width: 32px;
+    height: 32px;
+    background: url("../images/index_btn.png") no-repeat;
+    float: left;
+}
+.footer-tel ul li.phone-num span{
+    background-position: -1px -120px;
+}
+.footer-tel ul li.mail span{
+    background-position: -1px -156px;
+}
+.footer-tel ul li.join span{
+    background-position: -1px -192px;
+}
+
+.footer-tel ul li a{
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    margin-left: 8px;
+    float: left;
+    font-size: 14px;
+}
+.footer-tel ul li a:hover{
+    color: #00bfe1;
+}
+.gongzhonghao{
+    width: 164px;
+    position: absolute;
+    top: 122px;
+    left: 415px;
+    text-align: center;
+}
+.gongzhonghao .weixin{
+    border: 1px solid #2e2e2e;
+    padding: 12px;
+}
+.tiyan{
+    width: 133px;
+    height: 51px;
+    border: 5px solid #00bfe1;
+    position: absolute;
+    top: 168px;
+    right: 78px;
+}
+.tiyan a{
+    font-size: 16px;
+    color: #ff0060;
+    width: 133px;
+    height: 51px;
+    display: inline-block;
+    text-align: center;
+    line-height: 51px;
+}
+.tiyan a:hover{
+    color: #00bfe1;
+}
+.tiyan span{
+    background: url("../images/index_btn.png") no-repeat -10px -228px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 24px;
+    height: 22px;
+}
+.footer p{
+    width: 500px;
+    margin: 50px auto 0;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+.footer p a{
+    color: #595959;
+}
+.footer p a:hover{
+    color: #00bfe1;
+}
+/*µÇÂ¼*/
+.loginMain{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.6);
+    display: none;
+    z-index: 1000000;
+}
+.login{
+    width: 618px;
+    height: 390px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    margin-top: -195px;
+    margin-left: -309px;
+}
+.login i{
+    background: #f3f3f3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: default;
+}
+.login form{
+    margin: 98px 28px 0 28px;
+}
+.login form div{
+    width: 558px;
+    height: 92px;
+    margin-bottom: 18px;
+    border: 1px solid #c2c2c2;
+    position: relative;
+}
+.login form div span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 82px;
+    height: 92px;
+    background: #f3f3f3;
+}
+.login form div span i{
+    background: url("../images/login_btn.png") no-repeat -14px -70px;
+    display: inline-block;
+    width: 59px;
+    height: 59px;
+    margin-top: 10px;
+}
+.login form div.pwd span i{
+    background-position: -84px -70px;
+}
+.login form div input{
+    position: absolute;
+    top:0;
+    left: 92px;
+    width: 330px;
+    height: 92px;
+    border: none;
+}
+.login form div button{
+    width: 134px;
+    height: 59px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    background: url("../images/login_btn.png") no-repeat -290px -69px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 59px;
+    text-align: center;
+}
+.login form div button:hover{
+    cursor: pointer;
+}
+.login>div{
+    border-top: 3px solid #ebebeb;
+    margin-top: 25px;
+}
+.login>div ul{
+    width: 120px;
+    margin: 20px auto 0;
+}
+.login>div ul li{
+    float: left;
+}
+.login>div ul li span{
+    margin: 0 15px;
+}
+
+.login>div ul li a{
+    color: #7d7d7d;
+}
+.login>div ul li a:hover{
+    color: #f57406;
+}
+/*×¢²á*/
+.regMain{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.6);
+    z-index: 100000;
+    display: none;
+}
+.regMain .login{
+    width: 620px;
+    height: 460px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    margin-top: -230px;
+    margin-left: -310px;
+    border-bottom: 5px solid #c7c7c7;
+}
+.regMain .login form{
+    margin: 98px 28px 0 28px;
+}
+.regMain .login form div{
+    width: 558px;
+    height: 74px;
+    margin-bottom: 18px;
+    border: 1px solid #c2c2c2;
+    position: relative;
+}
+.regMain .login form div span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 82px;
+    height: 74px;
+    background: #f3f3f3;
+}
+.regMain .login form div span i{
+    background: url("../images/login_btn.png") no-repeat -14px -70px;
+    display: inline-block;
+    width: 59px;
+    height: 59px;
+    margin-top: 10px;
+}
+.regMain .login form div.pwd span i{
+    background-position: -84px -70px;
+}
+.regMain .login form div input{
+    position: absolute;
+    top:0;
+    left: 92px;
+    width: 330px;
+    height: 74px;
+    border: none;
+}
+.regMain .login form div button{
+    width: 134px;
+    height: 59px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: url("../images/login_btn.png") no-repeat -290px -69px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 59px;
+    text-align: center;
+}
+.regMain .login form div button:hover{
+    cursor: pointer;
+}
+.regMain .login p{
+    width: 100px;
+    text-align: center;
+    margin: 25px auto 0;
+}
+.regMain .login p a{
+    color: #7d7d7d;
+}
+.regMain .login p a:hover{
+    color: #f57406;
+}

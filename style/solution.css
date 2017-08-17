@@ -1,0 +1,101 @@
+/*图片广告区域-->*/
+.solution-img{
+    background: url("../images/solution_img.png") top center;
+    width: 100%;
+    height: 387px;
+    overflow: hidden;
+    text-indent: -99em;
+}
+/*行业案例*/
+.case-list{
+    width: 1000px;
+    margin: 25px auto 96px;
+}
+.solution-box{
+    width: 1000px;
+    height: 580px;
+    border-bottom: 2px solid #dedcd7;
+    position: relative;
+}
+.solution-box h2{
+    position: absolute;
+    top: 24px;
+    left: 15px;
+    font-size: 18px;
+}
+.solution-case{
+    position: absolute;
+    top: 94px;
+    left: 32px;
+    width: 968px;
+    height: 486px;
+}
+.case-image,.case-zi{
+    float: left;
+}
+.case-image{
+    width: 390px;
+    height: 480px;
+}
+.case-zi{
+    width: 566px;
+    height: 480px;
+}
+.small-image{
+    float: left;
+    width: 73px;
+    height: 73px;
+    margin-right: 15px;
+}
+.miaoshu{
+    float: left;
+    width: 400px;
+}
+.miaoshu h1{
+    font-size: 32px;
+    line-height: 32px;
+    padding: 8px 0 45px 0;
+
+}
+.miaoshu p,.miaoshu dd{
+    line-height: 22px;
+}
+.miaoshu dt{
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+/*弊端与优势*/
+.solution-list{
+    width: 1000px;
+    margin: 0 auto;
+}
+.solution-list h1{
+    font-size: 18px;
+    padding: 60px 0 60px 15px;
+}
+.solution-list ul{
+    width: 1090px;
+    overflow: hidden;
+}
+.solution-list ul li{
+    width: 200px;
+    float: left;
+    margin-top: 38px;
+    margin-right: 70px;
+    text-align: center;
+    line-height: 22px;
+}
+.solution-right{
+    margin-top: 65px;
+    margin-bottom: 210px;
+}
+
+
+
+
+
+
+
+
+
