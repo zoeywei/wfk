@@ -177,20 +177,20 @@
     z-index: 100000;
 }
 .banner-btn ul{
-    width: 39px;
+    width: 66px;
     height: 20px;
     margin: 0 auto;
 }
 .banner-btn ul li{
-    width: 8px;
-    height: 8px;
+    width: 12px;
+    height: 12px;
     float: left;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 .banner-btn ul li a{
     display: inline-block;
-    width: 8px;
-    height: 8px;
+    width: 12px;
+    height: 12px;
     border-radius: 100%;
     background: #9c9c9c;
 }

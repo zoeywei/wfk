@@ -102,7 +102,6 @@ $("#yhzc").bind('click',function(){
 //招聘岗位
 $("#zhaopin li em").click(function(){
     $(this).parents("li").toggleClass("chose");
-    $(this).siblings("p").slideToggle();
 });
 //agent页面模块切换
 $(".agent-tit a").click(function(){
@@ -177,13 +176,14 @@ $(".banner-btn ul li").mouseenter(function(){
         var left=$(aaa[i]).attr("myLeft");
         $(aaa[i]).animate({left:left,opacity:"1"},3000);
     }
+
     n++;
 });
 $(".banner-btn ul li").mouseleave(function () {
-    timer = setInterval(imgMove, 5000);
+    timer = setInterval(imgMove, 8000);
 })
 
-timer = setInterval(imgMove, 5000);
+timer = setInterval(imgMove, 8000);
 
 function imgMove(){
     if(n>2){

@@ -72,21 +72,16 @@
 .zhaopin-box ul li a:hover{
     color: #6cb25e;
 }
+.zhaopin-box ul li.chose p{
+    display: block;
+}
 .zhaopin-box ul li p{
     color: #6cb25e;
     margin: 14px 0 14px 10px;
     line-height: 22px;
     display: none;
 }
-.zhaopin-box ul li.chose p{
-    display: block;
-}
-.zhaopin-box ul li em.hidden-icon{
-    background-position:  423px 0;
-}
-.zhaopin-box ul li p.hidden-p{
-    display: none;
-}
+
 
 
 
