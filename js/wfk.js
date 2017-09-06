@@ -170,11 +170,11 @@ $(".banner-btn ul li").mouseenter(function(){
     $(".banner-bg li").eq(n).removeClass("hidden").siblings("li").addClass("hidden");
     var liAttr=$(".banner-bg li").eq(n).attr("class");
     console.log(oldLiAttr);
-    $(".banner-con").children("[class^="+oldLiAttr+"]").animate({left:"-99em",opacity: "0"},2000);
+    $(".banner-con").children("[class^="+oldLiAttr+"]").stop().animate({left:"-99em",opacity: "0"},2000);
     var aaa=$(".banner-con").children("[class^="+liAttr+"]");
     for(var i=0;i<aaa.length;i++){
         var left=$(aaa[i]).attr("myLeft");
-        $(aaa[i]).animate({left:left,opacity:"1"},3000);
+        $(aaa[i]).stop().animate({left:left,opacity:"1"},3000);
     }
 
     n++;
